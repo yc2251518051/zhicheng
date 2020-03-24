@@ -1,0 +1,41 @@
+a{
+text-decoration: none;
+
+}
+.superbanner{
+  /* display:block; */
+position: relative;
+background: #ff4460;
+width:1190px;
+height:100px;
+overflow:hidden;
+margin:0 auto;
+border: 1px solid #000;
+display:none;
+}
+.superbanner-logo{
+float:left;
+display:block;
+width:80px;
+height:80px;
+padding: 10px 10px 10px 15px;
+border:1px solid #f00;
+}
+.supperbanner-bar{
+position: absolute;
+  left:105px;
+  width:1085px;
+  height:75px;
+  margin-top:13px;
+  background:red;
+}
+.logo{
+  display:block;
+  width:80px;
+  height:80px;
+}
+.superbanner::after{
+  content:"";
+  display:block;
+clear:both;
+}

@@ -1,0 +1,110 @@
+li{
+  float: left;
+  list-style: none;
+}
+.shop-nav{
+  width:1190px;
+  height:30px;
+  background: #ff9000;
+}
+.Thematic-market{
+  float: left;
+  width: 190px;
+  text-align: center;
+  font-size: 16px;
+  background: #ff5000;
+  line-height: 30px;
+  color:#fff;
+}
+.tianmao-line{
+  float: left;
+  font-size: 16px;
+  /* font-weight: 700; */
+  line-height: 30px;
+  width:218px;
+  color: #fff;
+}
+li.tianmaoline{
+float:left;
+/* color: #fff; */
+
+}
+.TL-1{
+  width:42px;
+  font-size: 16px;
+    /* font-weight: 700; */
+    line-height: 30px;
+    padding: 0 4px;
+    margin:0 3px;
+}
+.Tl-2{
+  width:58px;
+  font-size: 16px;
+    /* font-weight: 700; */
+    line-height: 30px;
+    padding: 0 4px;
+    margin:0 3px;
+}
+.Tl-3{
+  width:76px;
+  font-size: 16px;
+    /* font-weight: 700; */
+    line-height: 30px;
+    padding: 0 4px;
+    margin:0 3px;
+}
+.a1{
+
+  padding:0 5px;
+  color:#fff;
+}
+.a2{
+  padding:0 5px;
+  color:#fff;
+}
+.a3{
+  padding:0 5px;
+  color:#fff;
+}
+.tao-line-left{
+  float: left;
+  font-size: 14px;
+  line-height: 30px;
+  height:30px;
+  width:355px;
+}
+.tao-line-right{
+  float: left;
+  font-size: 14px;
+  line-height: 30px;
+  height:30px;
+  width:235px;
+}
+.tao-line-1{
+  margin-left:7px;
+  width:5px;
+  color:#fff;
+  height:30px;
+}
+.tao-line-3{
+  margin-left:7px;
+  width:53px;
+  height:30px;
+}
+.tao-line-4{
+  margin-left:7px;
+  width:67px;
+  height:30px;
+}
+.t-3{
+  width:43px;
+  height:30px;
+padding:0 5px;
+color:#fff;
+}
+.t-4{
+  width:57px;
+  height:30px;
+padding:0 5px;
+color:#fff;
+}
