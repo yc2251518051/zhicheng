@@ -294,15 +294,21 @@ height:522px;
 
 
 /* 图片1容器 */
-.firstLeft .img1Box{
-width:690px;
-height:282px;
-background: #eee;
-margin-top: 10px;
-}
+
 .firstLeft .pic{
   width:520px;
+  height: 280px;
   position: relative;
+  overflow: hidden;
+}
+.firstLeft .pic ul{
+  width:600%;
+  position: absolute;
+}
+.firstLeft .pic li{
+  float: left;
+  width: 520px;
+  height: 280px;
 }
 .firstLeft .pic button{
   width:20px;
@@ -360,7 +366,12 @@ border-radius: 0 15px 15px 0;
 .firstLeft .ad img{
   width: 160px;
 }
-
+.firstLeft .img1Box{
+  width:690px;
+  height:282px;
+  background: #eee;
+  margin-top: 10px;
+  }
 
 /* 图片2容器 */
 .firstLeft .img2Box{
