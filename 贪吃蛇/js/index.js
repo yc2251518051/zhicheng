@@ -133,14 +133,12 @@ Snake.prototype.getNextPos = function () {
   });
   if (selfCollied) {
     this.strategies.die.call(this);
-    console.log('撞到自己了！');
     return;
   }
 
 
   //下个点是墙，游戏结束
   if (nextPos[0] < 0 || nextPos[1] < 0 || nextPos[0] > td - 1 || nextPos[1] > tr - 1) {
-    console.log('撞到墙了！');
     this.strategies.die.call(this);
     return;
   }
@@ -149,7 +147,6 @@ Snake.prototype.getNextPos = function () {
   //下一个点是苹果，吃
   if (food && food.pos[0] == nextPos[0] && food.pos[1] == nextPos[1]) {
     //条件成立，蛇头即将吃到食物
-    console.log('迟到到食物了');
     this.strategies.eat.call(this);
     return;
   }
@@ -268,7 +265,7 @@ Game.prototype.over = function () {
   var snakeWrap = document.getElementById('snakeWrap');
   snakeWrap.innerHTML = '';
   snake = new Snake();
-  game = new Game()
+  game = new Game();
   var startBtnWrap = document.querySelector('.startBtn');
   startBtnWrap.style.display = 'block';
   $speedControl.style.display = 'block';
